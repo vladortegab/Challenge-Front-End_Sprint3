@@ -1,0 +1,35 @@
+.button_banner {
+  background: var(--azul-100, #2a7ae4);
+  padding: 1rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+  margin-left: 3rem;
+  margin-right: 3rem;
+  margin-top: 3rem;
+  border-radius: 0.5rem;
+}
+.button_banner:hover {
+  background: var(--azul-100, #2a7ae4);
+  transform: scale(1.0125);
+  cursor: pointer;
+}
+/* Mobile Phones */
+@media screen and (max-width: 767px) {
+  .button_banner {
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: auto;
+  }
+}
+
+/* Tablets */
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .button_banner {
+    font-size: 1rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: auto;
+  }
+}

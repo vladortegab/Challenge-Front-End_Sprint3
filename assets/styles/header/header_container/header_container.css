@@ -1,0 +1,29 @@
+.header_container {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  padding: 2.5rem 2rem;
+
+  background: var(--azul-10, #eaf2fd);
+}
+.header_container__company {
+  display: flex;
+  width: 15rem; /* Modificar este para mover items izquierda*/
+  align-items: center;
+  flex-direction: row;
+  padding-left: 3vw;
+  padding-right: 3vw;
+}
+
+/* Mobile Phones */
+@media screen and (max-width: 780px) {
+  .header_container {
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+
+}
+

@@ -1,0 +1,39 @@
+.form_container{
+display: flex;
+flex-direction: column;
+align-items: start;
+
+}
+.contact_us_title{
+    color: var(--black,#000000);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    
+}
+.name_container{
+    background-color: var(--white);
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.3rem;
+    width: 35vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.75);
+    
+}
+.name_title{
+    padding-bottom: 0.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--gray-one,#A2A2A2);
+}
+.input_name{
+    width: 33.8vw;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    font-size: 1.25rem;
+    color: var(--black);
+    background-color: var(--white);
+}
+.input_name::placeholder, .input_message::placeholder {
+    color: var(--black);
+}

@@ -1,0 +1,18 @@
+:root {
+    /* Inserta la variable de los otros colores inspeccionando el exemplo de figma */
+    /*Se esforce para trabalhar com variáveis, é uma dica profissional valiosa*/
+    --cor-de-fundo: #ffffff;
+    --cor-de-link: #000;
+    --preto-100 : #000000;
+    --azul-10 : #eaf2fd;
+    --preto-branco : #e7e7e4;
+    --azul-100: #2a7ae4;
+    --logo-title: #2a7ae4;
+    --logo-title-differential: #282828;
+    --white:#fffcfc;
+    --gray-one: #A2A2A2;
+    --black: #000000;
+    --roboto: #65e42a;
+    --title-banner:#ffffff;
+    --description-title-banner:#ffffff;
+  }

@@ -1,0 +1,88 @@
+.message_container{
+    background-color: var(--white);
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.3rem;
+    width: 35vw;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.75);
+}
+.message_title{
+    padding-bottom: 0.25rem;
+    font-size: 1rem;
+    font-weight: 500;
+    color: var(--gray-one);
+}
+.input_message{
+    width: 33.8vw;
+    padding: 0.5rem 0.5rem;
+    border: none;
+    font-size: 1.25rem;
+    color: var(--black);
+    background-color: var(--white);
+}
+.button_submit{
+    width: 11.375rem;
+    
+    padding: 1rem;
+    border-radius: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.625rem;
+    flex-shrink: 0;
+    transition: 0.3s;
+    border: 1px solid var(--azul-100, #2A7AE4);
+    background-color: var(--azul-100, #2A7AE4);
+    font-size: 1.25rem;
+
+}
+.button_submit:hover{
+    border: solid var(--white);
+    cursor: pointer;
+}
+/* Mobile Phones */
+@media screen and (max-width: 780px) {
+    .contact_us_title {
+        font-size: 2rem;
+    }
+
+    .name_container {
+        width: 83vw;
+    }
+
+    .input_name {
+        width: 80vw;
+    }
+
+    .message_container {
+        width: 83vw;
+    }
+
+    .input_message {
+        max-width: 100%;
+    }
+
+    .button_submit {
+        align-self: center;
+        width: 85vw;
+    }
+}
+
+
+/* Tablets */
+@media screen and (min-width: 781px) and (max-width: 1024px) {
+    .name_container {
+        width: 55vw;
+    }
+
+    .input_name {
+        width: 54vw;
+    }
+
+    .message_container {
+        width: 55vw;
+    }
+
+    .input_message {
+        width: 53.5vw;
+    }
+}

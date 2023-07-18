@@ -1,0 +1,28 @@
+.title_form_item {
+  padding-top: 0.5rem;
+  padding-bottom: 0.15rem;
+}
+.box_user_information {
+  height: 2rem;
+  width: auto;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  border: 1px solid var(--gray-one);
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: var(--cor-de-fundo, #d8d8d8);
+}
+
+
+
+.button_sign_in_form {
+  margin-top: 1rem;
+  transition: 0.3s;
+  border: none;
+  border-radius: 1rem;
+  background-color: var(--azul-100, #2a7ae4);
+  color: var(--white);
+  height: 3rem;
+  font-size: 1.125rem;
+  font-weight: bold;
+}

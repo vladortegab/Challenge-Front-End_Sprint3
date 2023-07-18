@@ -1,0 +1,32 @@
+.footer_myinformation{
+    font-size: 1rem;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.footer__social__media{
+    display: flex;
+    padding: 0.5rem 1rem;
+    justify-content: center;
+}
+.footer__social_media__item{
+    padding: 0.5rem 0.5rem;
+    color: var(--black);
+    font-size: 1.5rem;
+    transition: 0.3s;
+}
+/* .fab fa-github footer__social__media-item{
+    font-family: "Font Awesome 5 Brands";
+}
+.fab fa-linkedin footer__social__media-item{
+    font-family: "Font Awesome 5 Brands";
+} */
+
+.footer__social__media-item:hover {
+    color: var(--white);
+    transform: scale(1.2);
+}

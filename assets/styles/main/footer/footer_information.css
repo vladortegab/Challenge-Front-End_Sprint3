@@ -1,0 +1,10 @@
+.footer__information_company{
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 2.5%;
+    padding-left: 2.5%;
+    justify-content: center;
+    font-size: 1.125rem;
+    font-weight: bold;
+    text-align: center;
+}

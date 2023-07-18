@@ -1,0 +1,24 @@
+.add_product_in_section{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.75rem;
+    display: flex;
+}
+.product_in_form{
+    display: flex;
+    flex-direction: column;
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    width: 20w;
+}
+.product_add_in_title{
+    color: var(--black,#000000);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+
+}

@@ -1,0 +1,45 @@
+.sign_in_section {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5.75rem;
+    
+}
+
+.sign_in_form {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--cor-de-fundo,#d8d8d8);
+    padding: 2rem 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 5px 8px rgba(0, 0, 0, 0.1);
+    width: 15vw;
+}
+.sign_in_title {
+    color: var(--black,#000000);
+    font-weight: bolder;
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+
+   
+}
+
+/* Tablets */
+@media screen and (min-width: 781px) and (max-width: 1024px){
+.sign_in_form{
+    width: 50vw;
+}
+
+}
+/* Mobile Phones */
+@media screen and (max-width: 780px)
+{
+.sign_in_form {
+    width: 80vw;
+    padding: 2rem 0.75rem;
+    border-radius: 0.5rem;
+}
+}

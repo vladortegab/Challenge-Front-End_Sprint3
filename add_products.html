@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AluraGeek</title>
+    <link rel="icon" href="assets/img/logo.jpg">
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;600&amp;family=Roboto:wght@300;400;700&amp;display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="assets/styles/body.css">
+    <link rel="stylesheet" href="assets/styles/reset.css">
+    <link rel="stylesheet" href="assets/styles/header/header_container/header_container.css">
+    <link rel="stylesheet" href="assets/styles/header/header_search/header_search.css">
+    <link rel="stylesheet" href="assets/styles/header/header_logo.css">
+    <link rel="stylesheet" href="assets/styles/header/login.css">
+
+    <link rel="stylesheet" href="assets/styles/utilidades/normalize.css">
+    <link rel="stylesheet" href="assets/styles/utilidades/reset.css">
+    <link rel="stylesheet" href="assets/styles/utilidades/variables.css">
+
+    <link rel="stylesheet" href="assets/styles/main/pagina_login/form_login.css">
+    <link rel="stylesheet" href="assets/styles/main/pagina_login/sign_section.css">
+
+    <link rel="stylesheet" href="assets/styles/main/products_container/add_products.css">
+
+    <link rel="stylesheet" href="assets/styles/main/contact_container/formulario_container/contact.css">
+    <link rel="stylesheet" href="assets/styles/main/contact_container/formulario_container/form_container.css">
+    <link rel="stylesheet" href="assets/styles/main/contact_container/formulario_container/message.css">
+
+    <link rel="stylesheet" href="assets/styles/main/contact_container/information_container/information.css">
+    <link rel="stylesheet" href="assets/styles/main/contact_container/information_container/titles_contact.css">
+
+    <link rel="stylesheet" href="assets/styles/main/footer/footer_information.css">
+    <link rel="stylesheet" href="assets/styles/main/footer/footer_container.css">
+    <link rel="stylesheet" href="assets/styles/main/footer/footer_myinformation.css">
+    <link rel="stylesheet" href="assets/styles/main/contact_container/logo_contact.css">
+
+
+</head>
+
+<body class=" background_home">
+    <header class="header_container">
+        <a href="index.html"><div class="header_container__company">
+            <img class="header__logo" src="assets/img/logo.png" alt="Logo AluraGeek">
+            <h1 class="header__logo__title">Alura</h1>
+            <h1 class="header__logo__title header__logo__title-differential">Geek</h1>
+
+
+        </div></a>
+        <div class="header_search__container">
+            <input class="header_search_box" type="text" placeholder="¿Qué desea buscar?">
+            <button class="header__button_search_box">
+                <i class="fas fa-search"></i>
+            </button>
+        </div>
+        <a href="index.html">
+            <button class="button_login">Inicio </button>
+        </a>
+    </header>
+    <main class="contenidoPrincipal">
+        <section class="add_product_in_section">
+            <form class="product_in_form" action="/login" method="POST">
+                <h2 class="product_add_in_title">Agregar nuevo producto</h2>
+
+                <p class="name_title">URL de imagen:</p>
+                <input class="box_user_information" type="url" id="url" name="url" required=""
+                    placeholder="Escriba URL de la imagen">
+
+                <p class="name_title">Categoría:</p>
+                <input class="box_user_information" type="text" id="categoria" name="categoria" required placeholder=""
+                    list="categoria-options">
+                <datalist id="categoria-options">
+                    <option value="Star Wars">
+                    <option value="Consolas">
+                    <option value="Diversos">
+                </datalist>
+                <p class="name_title">Nombre del producto:</p>
+                <input class="box_user_information" type="text" id="text" name="text" required=""
+                    placeholder="Escriba el nombre del producto">
+                <p class="name_title">Precio del producto:</p>
+                <input class="box_user_information" type="text" id="text" name="text" required=""
+                    placeholder="Escriba el precio del producto">
+                <p class="name_title">Decripción producto:</p>
+                <textarea class="box_user_information" placeholder="Decripción producto" required=""></textarea>
+                <input class="button_sign_in_form" type="submit" value="Entrar">
+
+            </form>
+        </section>
+        <section class="contact_container">
+            <div class="information_company_container">
+                <div class="header_container__company">
+                    <img class="logo_contact header__logo" src="assets/img/logo.png" alt="Logo AluraGeek">
+                    <h1 class="logo_title_contact">Alura</h1>
+                    <h1 class="logo_title_contact header__logo__title-differential">Geek</h1>
+                </div>
+                <ul class="titles_contact_container">
+                    <li class="title_contact_item"><a href="#">Quienes somos</a></li>
+                    <li class="title_contact_item"><a href="#">Politica de privacidad</a></li>
+                    <li class="title_contact_item"><a href="#">Programa de fidelidad</a></li>
+                    <li class="title_contact_item"><a href="#">Nuestras Tiendas</a></li>
+                    <li class="title_contact_item"><a href="#">Quiero ser franquiciado</a></li>
+                    <li class="title_contact_item"><a href="#">Anúncie aqui</a></li>
+                </ul>
+            </div>
+            <form class="form_container">
+                <h2 class="contact_us_title">Hable con nosotros</h2>
+                <label class="name_container">
+                    <p class="name_title">Nombre:</p>
+                    <input class="input_name" name="nombre" placeholder="Escribe tu Nombre" required="" type="text">
+                </label>
+                <label class="message_container">
+                    <p class="message_title">Mensaje:</p>
+                    <textarea class="input_message" placeholder="Escribe tu mensaje" required=""></textarea>
+                </label>
+                <input class="button_submit" type="submit" value="Enviar mensaje">
+            </form>
+        </section>
+
+
+    </main>
+    <footer class="footer__container">
+        <div class="footer__line"></div>
+        <div class="footer__information_company">
+            <p>
+                Copyright © 2023 AluraGeek | All Rights Reserved | ONE Oracle Next
+                Education Alura Latam
+            </p>
+        </div>
+        <h3 class="footer_myinformation">Diseñado por Vladimir Ortega</h3>
+        <nav>
+            <ul class="footer__social__media">
+                <li class="footer__social_media__item">
+                    <a target="__blank" href="https://github.com/vladortegab">
+                        <i class="fab fa-github footer__social__media-item">
+
+                        </i>
+                    </a>
+                </li>
+                <li class="footer__social_media__item">
+                    <a target="__blank" href="https://www.linkedin.com/in/vlado-or/">
+                        <i class="fab fa-linkedin footer__social__media-item">
+
+                        </i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </footer>
+
+</body>
+
+</html>
