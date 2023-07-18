@@ -48,11 +48,19 @@ GitHub Pages: Para crear la pagina WEB y que pueda ser visualizada.
 🔡 Lenguajes.
 Los lenguajes utilizados fueron:
 
-https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png
+<p align="center" >
+     <img width="600" heigth="600" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/html/html.png
+">
+</p>
+<p align="center" >
+     <img width="600" heigth="600" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png
+">
+</p>
+<p align="center" >
+     <img width="600" heigth="600" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png">
+</p>
 
-https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/css/css.png
 
-https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png
 
 📚 Librerías.
 Me apoyé de las siguientes librerias:
