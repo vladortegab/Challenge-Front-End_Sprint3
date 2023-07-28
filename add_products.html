@@ -70,16 +70,16 @@
     </header>
     <main class="contenidoPrincipal">
         <section class="add_product_in_section">
-            <form class="product_in_form" action="/login" method="POST">
+            <form class="product_in_form"  data-form>
                 <h2 class="product_add_in_title">Agregar nuevo producto</h2>
 
                 <p class="name_title">URL de imagen:</p>
                 <input class="box_user_information" type="url" id="url" name="url" required=""
-                    placeholder="Escriba URL de la imagen">
+                    placeholder="Escriba URL de la imagen" data-url>
 
                 <p class="name_title">Categoría:</p>
                 <input class="box_user_information" type="text" id="categoria" name="categoria" required placeholder=""
-                    list="categoria-options">
+                    list="categoria-options" data-categoria>
                 <datalist id="categoria-options">
                     <option value="Star Wars">
                     <option value="Consolas">
@@ -87,13 +87,13 @@
                 </datalist>
                 <p class="name_title">Nombre del producto:</p>
                 <input class="box_user_information" type="text" id="text" name="text" required=""
-                    placeholder="Escriba el nombre del producto">
+                    placeholder="Escriba el nombre del producto"data-nombre>
                 <p class="name_title">Precio del producto:</p>
                 <input class="box_user_information" type="text" id="text" name="text" required=""
-                    placeholder="Escriba el precio del producto">
+                    placeholder="Escriba el precio del producto"data-precio>
                 <p class="name_title">Decripción producto:</p>
-                <textarea class="box_user_information" placeholder="Decripción producto" required=""></textarea>
-                <input class="button_sign_in_form" type="submit" value="Entrar">
+                <textarea class="box_user_information" placeholder="Decripción producto" required="" data-descripcion></textarea>
+                <input class="button_sign_in_form" href="products.html" type="submit" value="Entrar">
 
             </form>
         </section>
@@ -157,6 +157,8 @@
             </ul>
         </nav>
     </footer>
+    <script src="./assets/controllers/crear-productos-controller.js" type="module"></script>
+
 
 </body>
 

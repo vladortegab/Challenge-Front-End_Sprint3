@@ -49,13 +49,15 @@
 
 <body class=" background_home">
     <header class="header_container">
-        <a href="index.html"><div class="header_container__company">
-            <img class="header__logo" src="assets/img/logo.png" alt="Logo AluraGeek">
-            <h1 class="header__logo__title">Alura</h1>
-            <h1 class="header__logo__title header__logo__title-differential">Geek</h1>
+        <a href="index.html">
+            <div class="header_container__company">
+                <img class="header__logo" src="assets/img/logo.png" alt="Logo AluraGeek">
+                <h1 class="header__logo__title">Alura</h1>
+                <h1 class="header__logo__title header__logo__title-differential">Geek</h1>
 
 
-        </div></a>
+            </div>
+        </a>
         <div class="header_search__container">
             <input class="header_search_box" type="text" placeholder="¿Qué desea buscar?">
             <button class="header__button_search_box">
@@ -74,14 +76,15 @@
 
                 </label>
                 <p class="name_title">Correo:</p>
-                    <input class="box_user_information" type="email" id="email" name="email" required=""
-                        placeholder="Escriba su correo electrónico">
+                <input class="box_user_information" type="email" id="email" name="email" required data-tipo="email"
+                    placeholder="Escriba su correo electrónico">
+               
                 <label class="title_form_item">
 
                 </label>
                 <p class="name_title">Contraseña:</p>
-                    <input class="box_user_information" type="password" id="password" name="password" required=""
-                        placeholder="Escriba su contraseña">
+                <input class="box_user_information" type="password" id="password" name="password" required=""
+                    placeholder="Escriba su contraseña">
                 <input class="button_sign_in_form" type="submit" value="Entrar">
 
             </form>
@@ -146,6 +149,7 @@
             </ul>
         </nav>
     </footer>
+    <script src="./assets/controllers/registro.controller.js" type="module"></script>
 
 </body>
 

@@ -57,6 +57,14 @@ Los lenguajes utilizados fueron:
      <img width="100" heigth="100" src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png">
 </p>
 
+Para ejecutar el proyecto:
+```js
+npm i -g json-server
+json-server --watch db.json
+```
+
+Browser sync: browser-sync start --server --file . --host --port 5000 --startPath screens/lista_cliente.html
+
 📚 Librerías.
 Me apoyé de las siguientes librerias:
 

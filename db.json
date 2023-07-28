@@ -1,0 +1,39 @@
+{
+  "perfil": [
+    {
+      "email": "test@alura.com",
+      "password": "TestAlura123",
+      "id": 1
+    },
+    {
+      "nombre": "Pedro",
+      "email": "pedro@alura.com",
+      "id": "b007442c-8aad-456b-b6a1-4fee1562eb84"
+    }
+  ],
+  "products": [
+    {
+      "name": "Alura",
+      "imageUrl": "http://avatars.githubusercontent.com/u/49",
+      "categoria": "Star Wars",
+      "precio": "$55.00",
+      "description": "Este producto es una taza de color blanco con forma de rostro de StarGar",
+      "id": 1
+    },
+    {
+      "name": "One",
+      "imageUrl": "https://avatars.githubusercontent.com/u/50",
+      "categoria": "Star Wars",
+      "precio": "$750.00",
+      "description": "Este producto es una cabeza negra con puntos",
+      "id": 2
+    }
+   
+  ],
+  "mensajes": [
+    {
+      "correo": "animatri",
+      "mensajes2": "Hola"
+    }
+  ]
+}

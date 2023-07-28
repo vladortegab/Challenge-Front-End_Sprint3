@@ -1,0 +1,23 @@
+{
+    "name": "admin",
+    "version": "1.0.0",
+    "description": "Proyecto AluraGeek Frontend",
+    "main": "index.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/vladortegab/Challenge-Front-End_Sprint3"
+    },
+    "keywords": [
+      "Alura"
+    ],
+    "author": "Vladimir Ortega",
+    "license": "ISC",
+    "bugs": {
+      "url": "https://github.com/vladortegab/Challenge-Front-End_Sprint3"
+    },
+    "homepage": "https://github.com/vladortegab/Challenge-Front-End_Sprint3#readme"
+  }
+  
