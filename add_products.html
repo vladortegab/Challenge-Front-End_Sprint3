@@ -51,48 +51,67 @@
 
 <body class=" background_home">
     <header class="header_container">
-        <a href="index.html"><div class="header_container__company">
-            <img class="header__logo" src="assets/img/logo.png" alt="Logo AluraGeek">
-            <h1 class="header__logo__title">Alura</h1>
-            <h1 class="header__logo__title header__logo__title-differential">Geek</h1>
+        <a href="index.html">
+            <div class="header_container__company">
+                <img class="header__logo" src="assets/img/logo.png" alt="Logo AluraGeek">
+                <h1 class="header__logo__title">Alura</h1>
+                <h1 class="header__logo__title header__logo__title-differential">Geek</h1>
 
 
-        </div></a>
+            </div>
+        </a>
         <div class="header_search__container">
             <input class="header_search_box" type="text" placeholder="¿Qué desea buscar?">
             <button class="header__button_search_box">
                 <i class="fas fa-search"></i>
             </button>
         </div>
-        <a href="index.html">
-            <button class="button_login">Inicio </button>
+        <a href="products.html">
+            <button class="button_login">Menu Administrador </button>
         </a>
     </header>
     <main class="contenidoPrincipal">
         <section class="add_product_in_section">
-            <form class="product_in_form"  data-form>
+            <form class="product_in_form" data-form>
                 <h2 class="product_add_in_title">Agregar nuevo producto</h2>
+                <div>
+                    <p class="name_title ">URL de imagen:</p>
+                    <input class="box_user_information form-input" type="url" id="url" name="imageUrl" required=""
+                        placeholder="Escriba URL de la imagen" data-imageUrl>
+                    <span class="input-message-error">Este campo no es valido</span>
 
-                <p class="name_title">URL de imagen:</p>
-                <input class="box_user_information" type="url" id="url" name="url" required=""
-                    placeholder="Escriba URL de la imagen" data-url>
+                </div>
 
-                <p class="name_title">Categoría:</p>
-                <input class="box_user_information" type="text" id="categoria" name="categoria" required placeholder=""
-                    list="categoria-options" data-categoria>
-                <datalist id="categoria-options">
-                    <option value="Star Wars">
-                    <option value="Consolas">
-                    <option value="Diversos">
-                </datalist>
-                <p class="name_title">Nombre del producto:</p>
-                <input class="box_user_information" type="text" id="text" name="text" required=""
-                    placeholder="Escriba el nombre del producto"data-nombre>
-                <p class="name_title">Precio del producto:</p>
-                <input class="box_user_information" type="text" id="text" name="text" required=""
-                    placeholder="Escriba el precio del producto"data-precio>
-                <p class="name_title">Decripción producto:</p>
-                <textarea class="box_user_information" placeholder="Decripción producto" required="" data-descripcion></textarea>
+                <div>
+                    <p class="name_title ">Categoría:</p>
+                    <input class="box_user_information form-input" type="text" id="categoria" name="categoria" required
+                        placeholder="" list="categoria-options" data-categoria>
+                    <datalist id="categoria-options">
+                        <option value="Star Wars">
+                        <option value="Consolas">
+                        <option value="Diversos">
+                    </datalist>
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+                <div>
+                    <p class="name_title ">Nombre del producto:</p>
+                    <input class="box_user_information form-input" type="text" id="text" name="name" required=""
+                        placeholder="Escriba el nombre del producto" data-name>
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+                <div>
+                    <p class="namde_title ">Precio del producto:</p>
+                    <input class="box_user_information form-input" type="text" id="text" name="precio" required=""
+                        placeholder="Escriba el precio del producto" data-precio>
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
+                <div>
+                    <p class="name_title ">Decripción producto:</p>
+                    <textarea class="box_user_information form-input" name="description" placeholder="Decripción producto" required=""
+                        data-description></textarea>
+
+                    <span class="input-message-error">Este campo no es valido</span>
+                </div>
                 <input class="button_sign_in_form" href="products.html" type="submit" value="Entrar">
 
             </form>
@@ -117,11 +136,12 @@
                 <h2 class="contact_us_title">Hable con nosotros</h2>
                 <label class="name_container">
                     <p class="name_title">Nombre:</p>
-                    <input class="input_name" name="nombre" placeholder="Escribe tu Nombre" required="" type="text">
+                    <input class="input_name form-input" name="nombre" placeholder="Escribe tu Nombre" required=""
+                        type="text">
                 </label>
                 <label class="message_container">
-                    <p class="message_title">Mensaje:</p>
-                    <textarea class="input_message" placeholder="Escribe tu mensaje" required=""></textarea>
+                    <p class="message_title ">Mensaje:</p>
+                    <textarea class="input_message form-input" placeholder="Escribe tu mensaje" required=""></textarea>
                 </label>
                 <input class="button_submit" type="submit" value="Enviar mensaje">
             </form>
@@ -157,8 +177,11 @@
             </ul>
         </nav>
     </footer>
-    <script src="./assets/controllers/crear-productos-controller.js" type="module"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"
+        integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="./assets/controllers/validaciones.js"></script>
+    <script type="module" src="./assets/controllers/crear-productos-controller.js"></script>
 
 </body>
 

@@ -1,34 +1,164 @@
 {
-  "perfil": [
+  "admins": [
     {
       "email": "test@alura.com",
-      "password": "TestAlura123",
-      "id": 1
-    },
-    {
-      "nombre": "Pedro",
-      "email": "pedro@alura.com",
-      "id": "b007442c-8aad-456b-b6a1-4fee1562eb84"
+      "password": "TestAlura123"
     }
   ],
   "products": [
     {
-      "name": "Alura",
-      "imageUrl": "http://avatars.githubusercontent.com/u/49",
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/StarWar/productoSW1.png",
       "categoria": "Star Wars",
-      "precio": "$55.00",
-      "description": "Este producto es una taza de color blanco con forma de rostro de StarGar",
+      "name": "Taza de Star Wars",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
       "id": 1
     },
     {
-      "name": "One",
-      "imageUrl": "https://avatars.githubusercontent.com/u/50",
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/StarWar/productoSW2.png",
       "categoria": "Star Wars",
-      "precio": "$750.00",
-      "description": "Este producto es una cabeza negra con puntos",
+      "name": "Cabezas de Star Wars",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
       "id": 2
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/StarWar/productoSW3.png",
+      "categoria": "Star Wars",
+      "name": "Jedi de Star Wars",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 3
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/StarWar/productoSW4.png",
+      "categoria": "Star Wars",
+      "name": "Soldado de Star Wars",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 4
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/StarWar/productoSW5.png",
+      "categoria": "Star Wars",
+      "name": "Jedi Baby",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 5
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/StarWar/productoSW6.png",
+      "categoria": "Star Wars",
+      "name": "Sombra Jedi",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 6
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/Consolas/productoC1.png",
+      "categoria": "Consolass",
+      "name": "Control Xbox",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 7
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/Consolas/productoC2.png",
+      "categoria": "Consolas",
+      "name": "Play Station 6",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 8
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/Consolas/productoC3.png",
+      "categoria": "Consolas",
+      "name": "Nintendo",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 9
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/Consolas/productoC4.png",
+      "categoria": "Consolas",
+      "name": "Control De Nintendo Switch",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 10
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/Consolas/productoC5.png",
+      "categoria": "Consolas",
+      "name": "Xbox Series X|S",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 11
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/Consolas/productoC6.png",
+      "categoria": "Consolas",
+      "name": "Game Boy Color",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 12
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/Diversos/productoD1.png",
+      "categoria": "Diversos",
+      "name": "Camisa Atari",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 13
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/Diversos/productoD2.png",
+      "categoria": "Diversos",
+      "name": "Camisa SNES",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 14
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/Diversos/productoD3.png",
+      "categoria": "Diversos",
+      "name": "Control y Consolas",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 15
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/Diversos/productoD4.png",
+      "categoria": "Diversos",
+      "name": "Reloj Nintendo",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 16
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/Diversos/productoD5.png",
+      "categoria": "Diversos",
+      "name": "Vision 3D",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 17
+    },
+    {
+      "imageUrl": "https://raw.githubusercontent.com/vladortegab/Challenge-Front-End_Sprint3/master/assets/img/Diversos/productoD6.png",
+      "categoria": "Diversos",
+      "name": "Peluches",
+      "precio": "$60.00",
+      "description": "Voluptas voluptatum quibusdam similique, class debitis alias maecenas eveniet ridiculus, facilis fusce! Ullam conubia? Sociis, minima malesuada habitasse distinctio sequi aliqua malesuada. Quisque deleniti proin expedita, aliquid litora. Iste recusandae? Commodo, quia ridiculus doloribus vero dictum? Penatibus donec placeat faucibus, dolorum do. Animi porta anim magnam",
+      "id": 18
+    },
+    {
+      "imageUrl": "http://avatars.githubusercontent.com/u/60",
+      "name": "Star Wars",
+      "precio": "33.0",
+      "categoria": "Diversos",
+      "description": "Prueba Imagen",
+      "id": "f1404505-2df3-4dd6-a795-c77c6344a2f1"
     }
-   
+ 
   ],
   "mensajes": [
     {

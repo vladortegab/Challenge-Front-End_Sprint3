@@ -11,14 +11,20 @@
   position: absolute;
   top: 8%;
   left: 61%;
-  width: 10%;
+  width: 12%;
+  height: 10%;
+  background: url(/assets/img/boton_delete.png) no-repeat;
+  border: none;
 
 }
 .img_product_item_edit{
   position: absolute;
   top: 8%;
   left: 75%;
-  width: 10%;
+  width: 12%;
+  height: 10%;
+  background: url(/assets/img/boton_edit.png) no-repeat;
+  border: none;
 }
 
 /* Mobile Phones */

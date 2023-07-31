@@ -32,6 +32,8 @@
     <link rel="stylesheet" href="assets/styles/main/pagina_login/form_login.css">
     <link rel="stylesheet" href="assets/styles/main/pagina_login/sign_section.css">
 
+    <link rel="stylesheet" href="assets/styles/main/products_container/add_products.css">
+
     <link rel="stylesheet" href="assets/styles/main/contact_container/formulario_container/contact.css">
     <link rel="stylesheet" href="assets/styles/main/contact_container/formulario_container/form_container.css">
     <link rel="stylesheet" href="assets/styles/main/contact_container/formulario_container/message.css">
@@ -49,15 +51,13 @@
 
 <body class=" background_home">
     <header class="header_container">
-        <a href="index.html">
-            <div class="header_container__company">
-                <img class="header__logo" src="assets/img/logo.png" alt="Logo AluraGeek">
-                <h1 class="header__logo__title">Alura</h1>
-                <h1 class="header__logo__title header__logo__title-differential">Geek</h1>
+        <a href="index.html"><div class="header_container__company">
+            <img class="header__logo" src="assets/img/logo.png" alt="Logo AluraGeek">
+            <h1 class="header__logo__title">Alura</h1>
+            <h1 class="header__logo__title header__logo__title-differential">Geek</h1>
 
 
-            </div>
-        </a>
+        </div></a>
         <div class="header_search__container">
             <input class="header_search_box" type="text" placeholder="¿Qué desea buscar?">
             <button class="header__button_search_box">
@@ -69,24 +69,31 @@
         </a>
     </header>
     <main class="contenidoPrincipal">
-        <section class="sign_in_section" >
-            <form class="sign_in_form" data-form>
-                <h2 class="sign_in_title">Iniciar Sesión</h2>
-                <label class="title_form_item">
+        <section class="add_product_in_section">
+            <form class="product_in_form"  data-form>
+                <h2 class="product_add_in_title">Editar producto</h2>
 
-                </label>
-                <p class="name_title">Correo:</p>
-                <input class="box_user_information form-input" type="email" id="email" name="email" required data-tipo="email" data-email
-                    placeholder="Escriba su correo electrónico">
-               
-                <label class="title_form_item">
+                <p class="name_title">URL de imagen:</p>
+                <input class="box_user_information form-input" type="url" id="url" name="url" required=""
+                    placeholder="Escriba URL de la imagen" data-imageUrl>
 
-                </label>
-                <p class="name_title">Contraseña:</p>
-                <input class="box_user_information form-input" type="password" id="password" name="password" required=""
-                    placeholder="Escriba su contraseña" pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?!.*[ !@#$%^&*_=+-])"
-                    maxlength="12" title="Al menos 6 caracteres, máximo 12, debe contener una letra minúscula, una letra mayúscula, un número y no puede contener caracteres especiales." data-password>
-                <input class="button_sign_in_form" type="submit" value="Entrar">
+                <p class="name_title">Categoría:</p>
+                <input class="box_user_information form-input" type="text" id="categoria" name="categoria" required placeholder=""
+                    list="categoria-options" data-categoria>
+                <datalist id="categoria-options">
+                    <option value="Star Wars">
+                    <option value="Consolas">
+                    <option value="Diversos">
+                </datalist>
+                <p class="name_title">Nombre del producto:</p>
+                <input class="box_user_information form-input" type="text" id="text" name="text" required=""
+                    placeholder="Escriba el nombre del producto"data-name>
+                <p class="name_title">Precio del producto:</p>
+                <input class="box_user_information form-input" type="text" id="text" name="text" required=""
+                    placeholder="Escriba el precio del producto"data-precio>
+                <p class="name_title ">Decripción producto:</p>
+                <textarea class="box_user_information form-input" placeholder="Decripción producto" required="" data-description></textarea>
+                <input class="button_sign_in_form" href="products.html" type="submit" value="Entrar">
 
             </form>
         </section>
@@ -109,7 +116,7 @@
             <form class="form_container">
                 <h2 class="contact_us_title">Hable con nosotros</h2>
                 <label class="name_container">
-                    <p class="name_title">Nombre:</p>
+                    <p class="name_title ">Nombre:</p>
                     <input class="input_name form-input" name="nombre" placeholder="Escribe tu Nombre" required="" type="text">
                 </label>
                 <label class="message_container">
@@ -150,8 +157,9 @@
             </ul>
         </nav>
     </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js" integrity="sha512-UNM1njAgOFUa74Z0bADwAq8gbTcqZC8Ej4xPSzpnh0l6KMevwvkBvbldF9uR++qKeJ+MOZHRjV1HZjoRvjDfNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./assets/controllers/validaciones.js"></script>
-    <script type="module" src="./assets/controllers/login.js"></script>
+    <script type="module" src="./assets/controllers/editar-productos-controller.js"></script>
 
 </body>
 
