@@ -7,7 +7,7 @@
 //       throw error;
 //     });
 // };
-const listaProductos = () => fetch("http://localhost:3000/products").then( respuesta => respuesta.json());
+const listaProductos = () => fetch("https://64c84bafa1fe0128fbd5beff.mockapi.io/products").then( respuesta => respuesta.json());
 
 
 //POST
@@ -35,7 +35,7 @@ const listaProductos = () => fetch("http://localhost:3000/products").then( respu
 // };
 
 const crearProductos = (imageUrl,name,  precio, categoria, description) => {
-  return fetch(`http://localhost:3000/products`, {
+  return fetch(`https://64c84bafa1fe0128fbd5beff.mockapi.io/products`, {
       method: "POST",
       headers: {
           "Content-Type": "application/json"
@@ -47,7 +47,7 @@ const crearProductos = (imageUrl,name,  precio, categoria, description) => {
 // Eliminar producto
 
 const eliminarProducto = (id) => {
-  return fetch(`http://localhost:3000/products/${id}`, {
+  return fetch(`https://64c84bafa1fe0128fbd5beff.mockapi.io/products/${id}`, {
       method: "DELETE",
   })
 }
@@ -55,11 +55,11 @@ const eliminarProducto = (id) => {
 // Editar producto
 
 const detalleProducto = (id) => {
-  return fetch(`http://localhost:3000/products/${id}`).then( (respuesta) => respuesta.json());
+  return fetch(`https://64c84bafa1fe0128fbd5beff.mockapi.io/products/${id}`).then( (respuesta) => respuesta.json());
 };
 
 const actualizarProducto = (imageUrl,name,  precio, categoria, description,id) => {
-  return fetch(`http://localhost:3000/products/${id}`, {
+  return fetch(`https://64c84bafa1fe0128fbd5beff.mockapi.io/products/${id}`, {
       method: "PUT",
       headers: {
           "Content-Type": "application/json"
@@ -69,12 +69,12 @@ const actualizarProducto = (imageUrl,name,  precio, categoria, description,id) =
 }
 // Leer admins
 
-const listaAdmins = () => fetch("http://localhost:3000/admins/").then( respuesta => respuesta.json());
+const listaAdmins = () => fetch("https://64c84bafa1fe0128fbd5beff.mockapi.io/admins/").then( respuesta => respuesta.json());
 
 // Ver más
 
 const obtenerProductoId = (id) => {
-  return fetch(`http://localhost:3000/products/${id}`).then( (respuesta) => respuesta.json());
+  return fetch(`https://64c84bafa1fe0128fbd5beff.mockapi.io/products/${id}`).then( (respuesta) => respuesta.json());
 };
 export const productosServicios = {
   listaProductos,

@@ -3,7 +3,7 @@ Hola, mi nombre es Vladimir Ortega y estoy creando un E-commerce para una tienda
 
 Actualmente, estoy formándome como Desarrollador. Con Oracle ONE y Alura LATAM estoy descubriendo el mundo del Desarrollo WEB.
 
-#### [Visita mi Web Site --> 🧐 Próximamente podrás hacer tus pedidos.](https://vladortegab.github.io/Challenge-Front-End_Sprint2/ "link")
+#### [Visita mi Web Site --> 🧐 Próximamente podrás hacer tus pedidos.](https://vladortegab.github.io/Challenge-Front-End_Sprint3/ "link")
 
 <p align="center" >
      <img width="600" heigth="600" src="https://github.com/vladortegab/Challenge-Front-End_Sprint2/assets/19668894/61b5551f-8875-4c5a-aa3c-4e95f8b1e611">
